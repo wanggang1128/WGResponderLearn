@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B50006210AB5CB0069EFA3 /* WGResponderLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B50005210AB5CB0069EFA3 /* WGResponderLearnUITests.m */; };
+		32B5FFE3210AB5C90069EFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B5FFE2210AB5C90069EFA3 /* AppDelegate.m */; };
+		32B5FFE6210AB5C90069EFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B5FFE5210AB5C90069EFA3 /* ViewController.m */; };
+		32B5FFE9210AB5C90069EFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B5FFE7210AB5C90069EFA3 /* Main.storyboard */; };
+		32B5FFEB210AB5CA0069EFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B5FFEA210AB5CA0069EFA3 /* Assets.xcassets */; };
+		32B5FFEE210AB5CA0069EFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B5FFEC210AB5CA0069EFA3 /* LaunchScreen.storyboard */; };
+		32B5FFF1210AB5CA0069EFA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B5FFF0210AB5CA0069EFA3 /* main.m */; };
+		32B5FFFB210AB5CB0069EFA3 /* WGResponderLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B5FFFA210AB5CB0069EFA3 /* WGResponderLearnTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32B50002210AB5CB0069EFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B5FFD6210AB5C90069EFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B5FFDD210AB5C90069EFA3;
+			remoteInfo = WGResponderLearn;
+		};
+		32B5FFF7210AB5CB0069EFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B5FFD6210AB5C90069EFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B5FFDD210AB5C90069EFA3;
+			remoteInfo = WGResponderLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32B50001210AB5CB0069EFA3 /* WGResponderLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGResponderLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B50005210AB5CB0069EFA3 /* WGResponderLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGResponderLearnUITests.m; sourceTree = "<group>"; };
+		32B50007210AB5CB0069EFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B5FFDE210AB5C90069EFA3 /* WGResponderLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGResponderLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B5FFE1210AB5C90069EFA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32B5FFE2210AB5C90069EFA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32B5FFE4210AB5C90069EFA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32B5FFE5210AB5C90069EFA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32B5FFE8210AB5C90069EFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32B5FFEA210AB5CA0069EFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B5FFED210AB5CA0069EFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32B5FFEF210AB5CA0069EFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B5FFF0210AB5CA0069EFA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32B5FFF6210AB5CB0069EFA3 /* WGResponderLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGResponderLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B5FFFA210AB5CB0069EFA3 /* WGResponderLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGResponderLearnTests.m; sourceTree = "<group>"; };
+		32B5FFFC210AB5CB0069EFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B5FFDB210AB5C90069EFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B5FFF3210AB5CB0069EFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B5FFFE210AB5CB0069EFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B50004210AB5CB0069EFA3 /* WGResponderLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32B50005210AB5CB0069EFA3 /* WGResponderLearnUITests.m */,
+				32B50007210AB5CB0069EFA3 /* Info.plist */,
+			);
+			path = WGResponderLearnUITests;
+			sourceTree = "<group>";
+		};
+		32B5FFD5210AB5C90069EFA3 = {
+			isa = PBXGroup;
+			children = (
+				32B5FFE0210AB5C90069EFA3 /* WGResponderLearn */,
+				32B5FFF9210AB5CB0069EFA3 /* WGResponderLearnTests */,
+				32B50004210AB5CB0069EFA3 /* WGResponderLearnUITests */,
+				32B5FFDF210AB5C90069EFA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B5FFDF210AB5C90069EFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B5FFDE210AB5C90069EFA3 /* WGResponderLearn.app */,
+				32B5FFF6210AB5CB0069EFA3 /* WGResponderLearnTests.xctest */,
+				32B50001210AB5CB0069EFA3 /* WGResponderLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B5FFE0210AB5C90069EFA3 /* WGResponderLearn */ = {
+			isa = PBXGroup;
+			children = (
+				32B5FFE1210AB5C90069EFA3 /* AppDelegate.h */,
+				32B5FFE2210AB5C90069EFA3 /* AppDelegate.m */,
+				32B5FFE4210AB5C90069EFA3 /* ViewController.h */,
+				32B5FFE5210AB5C90069EFA3 /* ViewController.m */,
+				32B5FFE7210AB5C90069EFA3 /* Main.storyboard */,
+				32B5FFEA210AB5CA0069EFA3 /* Assets.xcassets */,
+				32B5FFEC210AB5CA0069EFA3 /* LaunchScreen.storyboard */,
+				32B5FFEF210AB5CA0069EFA3 /* Info.plist */,
+				32B5FFF0210AB5CA0069EFA3 /* main.m */,
+			);
+			path = WGResponderLearn;
+			sourceTree = "<group>";
+		};
+		32B5FFF9210AB5CB0069EFA3 /* WGResponderLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				32B5FFFA210AB5CB0069EFA3 /* WGResponderLearnTests.m */,
+				32B5FFFC210AB5CB0069EFA3 /* Info.plist */,
+			);
+			path = WGResponderLearnTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B50000210AB5CB0069EFA3 /* WGResponderLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B50010210AB5CB0069EFA3 /* Build configuration list for PBXNativeTarget "WGResponderLearnUITests" */;
+			buildPhases = (
+				32B5FFFD210AB5CB0069EFA3 /* Sources */,
+				32B5FFFE210AB5CB0069EFA3 /* Frameworks */,
+				32B5FFFF210AB5CB0069EFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B50003210AB5CB0069EFA3 /* PBXTargetDependency */,
+			);
+			name = WGResponderLearnUITests;
+			productName = WGResponderLearnUITests;
+			productReference = 32B50001210AB5CB0069EFA3 /* WGResponderLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		32B5FFDD210AB5C90069EFA3 /* WGResponderLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B5000A210AB5CB0069EFA3 /* Build configuration list for PBXNativeTarget "WGResponderLearn" */;
+			buildPhases = (
+				32B5FFDA210AB5C90069EFA3 /* Sources */,
+				32B5FFDB210AB5C90069EFA3 /* Frameworks */,
+				32B5FFDC210AB5C90069EFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGResponderLearn;
+			productName = WGResponderLearn;
+			productReference = 32B5FFDE210AB5C90069EFA3 /* WGResponderLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32B5FFF5210AB5CB0069EFA3 /* WGResponderLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B5000D210AB5CB0069EFA3 /* Build configuration list for PBXNativeTarget "WGResponderLearnTests" */;
+			buildPhases = (
+				32B5FFF2210AB5CB0069EFA3 /* Sources */,
+				32B5FFF3210AB5CB0069EFA3 /* Frameworks */,
+				32B5FFF4210AB5CB0069EFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B5FFF8210AB5CB0069EFA3 /* PBXTargetDependency */,
+			);
+			name = WGResponderLearnTests;
+			productName = WGResponderLearnTests;
+			productReference = 32B5FFF6210AB5CB0069EFA3 /* WGResponderLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B5FFD6210AB5C90069EFA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = wanggang;
+				TargetAttributes = {
+					32B50000210AB5CB0069EFA3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 32B5FFDD210AB5C90069EFA3;
+					};
+					32B5FFDD210AB5C90069EFA3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					32B5FFF5210AB5CB0069EFA3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 32B5FFDD210AB5C90069EFA3;
+					};
+				};
+			};
+			buildConfigurationList = 32B5FFD9210AB5C90069EFA3 /* Build configuration list for PBXProject "WGResponderLearn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B5FFD5210AB5C90069EFA3;
+			productRefGroup = 32B5FFDF210AB5C90069EFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B5FFDD210AB5C90069EFA3 /* WGResponderLearn */,
+				32B5FFF5210AB5CB0069EFA3 /* WGResponderLearnTests */,
+				32B50000210AB5CB0069EFA3 /* WGResponderLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B5FFDC210AB5C90069EFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B5FFEE210AB5CA0069EFA3 /* LaunchScreen.storyboard in Resources */,
+				32B5FFEB210AB5CA0069EFA3 /* Assets.xcassets in Resources */,
+				32B5FFE9210AB5C90069EFA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B5FFF4210AB5CB0069EFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B5FFFF210AB5CB0069EFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B5FFDA210AB5C90069EFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B5FFE6210AB5C90069EFA3 /* ViewController.m in Sources */,
+				32B5FFF1210AB5CA0069EFA3 /* main.m in Sources */,
+				32B5FFE3210AB5C90069EFA3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B5FFF2210AB5CB0069EFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B5FFFB210AB5CB0069EFA3 /* WGResponderLearnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B5FFFD210AB5CB0069EFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B50006210AB5CB0069EFA3 /* WGResponderLearnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32B50003210AB5CB0069EFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B5FFDD210AB5C90069EFA3 /* WGResponderLearn */;
+			targetProxy = 32B50002210AB5CB0069EFA3 /* PBXContainerItemProxy */;
+		};
+		32B5FFF8210AB5CB0069EFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B5FFDD210AB5C90069EFA3 /* WGResponderLearn */;
+			targetProxy = 32B5FFF7210AB5CB0069EFA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32B5FFE7210AB5C90069EFA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B5FFE8210AB5C90069EFA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32B5FFEC210AB5CA0069EFA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B5FFED210AB5CA0069EFA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B50008210AB5CB0069EFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32B50009210AB5CB0069EFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B5000B210AB5CB0069EFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGResponderLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGResponderLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32B5000C210AB5CB0069EFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGResponderLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGResponderLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32B5000E210AB5CB0069EFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGResponderLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGResponderLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGResponderLearn.app/WGResponderLearn";
+			};
+			name = Debug;
+		};
+		32B5000F210AB5CB0069EFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGResponderLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGResponderLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGResponderLearn.app/WGResponderLearn";
+			};
+			name = Release;
+		};
+		32B50011210AB5CB0069EFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGResponderLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGResponderLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WGResponderLearn;
+			};
+			name = Debug;
+		};
+		32B50012210AB5CB0069EFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGResponderLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGResponderLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WGResponderLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B5000A210AB5CB0069EFA3 /* Build configuration list for PBXNativeTarget "WGResponderLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B5000B210AB5CB0069EFA3 /* Debug */,
+				32B5000C210AB5CB0069EFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B5000D210AB5CB0069EFA3 /* Build configuration list for PBXNativeTarget "WGResponderLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B5000E210AB5CB0069EFA3 /* Debug */,
+				32B5000F210AB5CB0069EFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B50010210AB5CB0069EFA3 /* Build configuration list for PBXNativeTarget "WGResponderLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B50011210AB5CB0069EFA3 /* Debug */,
+				32B50012210AB5CB0069EFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B5FFD9210AB5C90069EFA3 /* Build configuration list for PBXProject "WGResponderLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B50008210AB5CB0069EFA3 /* Debug */,
+				32B50009210AB5CB0069EFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B5FFD6210AB5C90069EFA3 /* Project object */;
+}
