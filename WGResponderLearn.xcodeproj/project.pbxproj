@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32A3101821100BE2002F39F0 /* UIView+WGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A3101721100BE2002F39F0 /* UIView+WGNavigationController.m */; };
+		32A3101B211026D2002F39F0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A3101A211026D2002F39F0 /* FirstViewController.m */; };
 		32B50006210AB5CB0069EFA3 /* WGResponderLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B50005210AB5CB0069EFA3 /* WGResponderLearnUITests.m */; };
+		32B50015210C4A8A0069EFA3 /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B50014210C4A8A0069EFA3 /* AView.m */; };
+		32B50018210C4A9A0069EFA3 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B50017210C4A9A0069EFA3 /* BView.m */; };
+		32B5001B210C62100069EFA3 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B5001A210C62100069EFA3 /* CView.m */; };
 		32B5FFE3210AB5C90069EFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B5FFE2210AB5C90069EFA3 /* AppDelegate.m */; };
 		32B5FFE6210AB5C90069EFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B5FFE5210AB5C90069EFA3 /* ViewController.m */; };
-		32B5FFE9210AB5C90069EFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B5FFE7210AB5C90069EFA3 /* Main.storyboard */; };
 		32B5FFEB210AB5CA0069EFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B5FFEA210AB5CA0069EFA3 /* Assets.xcassets */; };
 		32B5FFEE210AB5CA0069EFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B5FFEC210AB5CA0069EFA3 /* LaunchScreen.storyboard */; };
 		32B5FFF1210AB5CA0069EFA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B5FFF0210AB5CA0069EFA3 /* main.m */; };
@@ -35,15 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32A3101621100BE2002F39F0 /* UIView+WGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WGNavigationController.h"; sourceTree = "<group>"; };
+		32A3101721100BE2002F39F0 /* UIView+WGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WGNavigationController.m"; sourceTree = "<group>"; };
+		32A31019211026D2002F39F0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		32A3101A211026D2002F39F0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		32B50001210AB5CB0069EFA3 /* WGResponderLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGResponderLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B50005210AB5CB0069EFA3 /* WGResponderLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGResponderLearnUITests.m; sourceTree = "<group>"; };
 		32B50007210AB5CB0069EFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B50013210C4A8A0069EFA3 /* AView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		32B50014210C4A8A0069EFA3 /* AView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		32B50016210C4A9A0069EFA3 /* BView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		32B50017210C4A9A0069EFA3 /* BView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		32B50019210C62100069EFA3 /* CView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		32B5001A210C62100069EFA3 /* CView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
 		32B5FFDE210AB5C90069EFA3 /* WGResponderLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGResponderLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B5FFE1210AB5C90069EFA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32B5FFE2210AB5C90069EFA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		32B5FFE4210AB5C90069EFA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		32B5FFE5210AB5C90069EFA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		32B5FFE8210AB5C90069EFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32B5FFEA210AB5CA0069EFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32B5FFED210AB5CA0069EFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32B5FFEF210AB5CA0069EFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,11 +127,20 @@
 				32B5FFE2210AB5C90069EFA3 /* AppDelegate.m */,
 				32B5FFE4210AB5C90069EFA3 /* ViewController.h */,
 				32B5FFE5210AB5C90069EFA3 /* ViewController.m */,
-				32B5FFE7210AB5C90069EFA3 /* Main.storyboard */,
+				32B50013210C4A8A0069EFA3 /* AView.h */,
+				32B50014210C4A8A0069EFA3 /* AView.m */,
+				32B50016210C4A9A0069EFA3 /* BView.h */,
+				32B50017210C4A9A0069EFA3 /* BView.m */,
+				32B50019210C62100069EFA3 /* CView.h */,
+				32B5001A210C62100069EFA3 /* CView.m */,
 				32B5FFEA210AB5CA0069EFA3 /* Assets.xcassets */,
 				32B5FFEC210AB5CA0069EFA3 /* LaunchScreen.storyboard */,
 				32B5FFEF210AB5CA0069EFA3 /* Info.plist */,
 				32B5FFF0210AB5CA0069EFA3 /* main.m */,
+				32A3101621100BE2002F39F0 /* UIView+WGNavigationController.h */,
+				32A3101721100BE2002F39F0 /* UIView+WGNavigationController.m */,
+				32A31019211026D2002F39F0 /* FirstViewController.h */,
+				32A3101A211026D2002F39F0 /* FirstViewController.m */,
 			);
 			path = WGResponderLearn;
 			sourceTree = "<group>";
@@ -237,7 +259,6 @@
 			files = (
 				32B5FFEE210AB5CA0069EFA3 /* LaunchScreen.storyboard in Resources */,
 				32B5FFEB210AB5CA0069EFA3 /* Assets.xcassets in Resources */,
-				32B5FFE9210AB5C90069EFA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B5001B210C62100069EFA3 /* CView.m in Sources */,
+				32A3101821100BE2002F39F0 /* UIView+WGNavigationController.m in Sources */,
 				32B5FFE6210AB5C90069EFA3 /* ViewController.m in Sources */,
 				32B5FFF1210AB5CA0069EFA3 /* main.m in Sources */,
+				32B50015210C4A8A0069EFA3 /* AView.m in Sources */,
 				32B5FFE3210AB5C90069EFA3 /* AppDelegate.m in Sources */,
+				32B50018210C4A9A0069EFA3 /* BView.m in Sources */,
+				32A3101B211026D2002F39F0 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +326,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		32B5FFE7210AB5C90069EFA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32B5FFE8210AB5C90069EFA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32B5FFEC210AB5CA0069EFA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
